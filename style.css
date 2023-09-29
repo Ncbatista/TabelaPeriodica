@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo de tabela */
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+/* Estilos de células */
+td {
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
+  min-height: 70px;
+  border: 2px solid transparent;
+  padding: 5px;
+  position: relative;
+}
+
+/* Cores dos elementos químicos */
+.azulescuro {
+  background-color: #6186d5;
+  border: 2px solid black;
+}
+
+.azulclaro {
+  background-color: #61bcd5;
+  border: 2px solid black;
+}
+
+.roxo {
+  background-color: #9f61d5;
+  border: 2px solid black;
+}
+
+.preto {
+  background-color: #43ac85;
+  border: 2px solid black;
+}
+
+.verde {
+  background-color: #34d246;
+  border: 2px solid black;
+}
+
+.rosa {
+  background-color: #d56178;
+  border: 2px solid black;
+}
+
+.cinza {
+  background-color: #a7a3a3;
+  border: 2px solid black;
+}
+
+.laranja {
+  background-color: #e6812f;
+  border: 2px solid black;
+}
+
+.amarelo {
+  background-color: #f5fb3b;
+  border: 2px solid black;
+}
+
+.ciano {
+  background-color: #3af7f7;
+  border: 2px solid black;
+}
+
+/* Símbolo do elemento químico */
+h3 {
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bolder;
+}
+
+/* Nome do elemento químico */
+h4 {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+/* Número atômico */
+h5 {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: 10px;
+}
+
+/* Estilo para os lantanídeos e actinídeos */
+h6 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
